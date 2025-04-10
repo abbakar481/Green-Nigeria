@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoNaija - Climate Action for Nigeria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="lang-bar">
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('ha')">Hausa</button>
+        <button onclick="changeLanguage('yo')">Yoruba</button>
+        <button onclick="changeLanguage('ig')">Igbo</button>
+    </div>
+
+    <!-- Header/Nav -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flood-control.html">Flood Control</a></li>
+                <li><a href="energy.html">Renewable Energy</a></li>
+                <li><a href="report.html">Report Issues</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-translate="welcome">Welcome to EcoNaija</h1>
+                <p>Nigeria's Climate Action Platform</p>
+            </div>
+        </section>
+
+        <!-- State Selector -->
+        <section class="state-selector">
+            <h2>Select Your State</h2>
+            <div class="state-grid" id="stateGrid">
+                <!-- Dynamically loaded from states.json -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>

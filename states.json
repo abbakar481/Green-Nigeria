@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Lagos",
+        "slug": "lagos",
+        "floodRisk": "High",
+        "energyPotential": "Solar"
+    },
+    {
+        "name": "Kano",
+        "slug": "kano",
+        "floodRisk": "Medium",
+        "energyPotential": "Wind"
+    },
+    {
+        "name": "Rivers",
+        "slug": "rivers",
+        "floodRisk": "Very High",
+        "energyPotential": "Biomass"
+    }
+]
